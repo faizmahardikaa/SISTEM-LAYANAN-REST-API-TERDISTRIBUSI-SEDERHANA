@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+data/shared.db
+logs/
+temp/
