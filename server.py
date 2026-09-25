@@ -1,8 +1,8 @@
-"""REST API untuk praktikum lokal: dua proses, satu berkas SQLite."""
 import argparse
 import sqlite3
 from contextlib import closing
 from pathlib import Path
+# pyrefly: ignore [missing-import]
 from flask import Flask, jsonify, request
 
 ROOT = Path(__file__).resolve().parent
